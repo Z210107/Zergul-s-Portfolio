@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>PORTFOLIO WEBSITE </title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header class="header">
+            <a href="index.html" class="logo">Portfolio</a>
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <nav class="navbar">
+                <a href="index.html" >Home</a>
+                    <a href="#projects" class="active">Projects &#9662;</a>
+                    <ul class="submenu">
+                        <li><a href="project1.html" class="active"  >Project 1</a></li>
+                        <li><a href="project2.html" >Project 2</a></li>
+                        <li><a href="project3.html">Project 3</a></li>
+                    </ul>
+         
+            </nav>
+        </header>
+        <section class="home" id="home">
+            <div class="home-content">
+                <h1>Project 1</h1>
+                <h3> <span class="multi-text"></span></h3>
+                <a href="https://docs.google.com/document/d/1w7kItPXWjCrSkV8k2aBGs7uVaCzIrnVieByMabBg0KY/edit?tab=t.0" class="btn">Read more in document</a>
+            </div>
+            <div class="home-image">
+                <img src="output/robot.jpeg" alt="">
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="about-content">
+                <h2 class="heading">Backgroud<span>Research</span></h2>
+                <p>Students often face difficulties when searching for free study rooms, especially during peak times such as exam periods. Physically searching for rooms is inefficient and time-consuming. Automating this process through a robot that provides real-time data will be the optimal solution to this problem.</p> 
+                <p>Our idea is to create a robot that helps students find available study rooms. The primary function of the robot is to provide real-time information on room availability. This solution is designed to simplify student life by giving quick access to essential information and increasing overall efficiency.</p>
+                <p>The use of a robot also allows for real-time interaction(voice) and adaptability to student requests, making the process of finding study rooms quick, convenient, and intuitive. The system can not only locate available rooms but also suggest alternatives when primary study spaces are occupied.</p>
+            </div>
+        </section>
+        <section class="services"id="services">
+            <h2 class="heading">Data<span>Collection</span></h2>
+
+            <div class="services-container">
+                <div class="services-box">
+                    <a href="https://docs.google.com/document/d/1w7kItPXWjCrSkV8k2aBGs7uVaCzIrnVieByMabBg0KY/edit?tab=t.0" class="btnn">Link to the interview</a>
+                    <div class="service-img">
+                        <img src="output/inter.webp" alt="" class="image">
+                        
+                    </div>
+                </div>
+        
+               
+            </div>
+        </section>
+        <section class="about" id="about">
+                <img src="output/diagram.jpeg" alt="" class="imag">
+            <div class="about-content">
+                <h2 class="heading">Data<span>Analysis</span></h2>
+                <p>We will have two robots on each floor (one makes rounds, the other helps students by answering their questions) 
+                </p> 
+                <h3>Interaction:</h3>
+                <h4>The student asks, “Are there any free study rooms available now?”  Response:
+                    The robot checks the university portal in real-time and asks:
+                    "How many students are you booking for?" 
+                    </h4>
+                    <ul>
+                        <li>The robot will confirm:
+                            "You can book Room B 204 for one hour. Please enter your student ID."
+                        </li>
+                        <li>
+                            Once the room is booked, the robot marks the room as unavailable and sends a confirmation email.
+                        </li>
+                    </ul>
+                <h3> If the student wants to book a room:                 </h3>
+                <ul>
+                    <li>If the student responds with "1," the robot replies:                                         "You can join Room B 204. There are other students studying there, but no lessons are currently being held. Would you like to join them?" (The robot also displays the number of students already in the room.)
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+        <section class="services"id="services">
+            <h2 class="heading">Prototyping</h2>
+
+            <div class="services-container">
+                <div class="services-box">
+                    <div class="service-img">
+                        <p>We created sketches that illustrate how a student interacts with the robot. The storyboard shows the student asking the robot for a free study room, followed by the robot scanning and providing a room suggestion in real-time.
+                            .</p>
+                        <img src="output/sketch.jpg" alt="" class="image">
+                        
+                    </div>
+                </div>
+                <div class="services-box">
+                    <p>A student concerned about an empty room turns to a robot for help.
+                    </p>
+                    <img src="output/storyboard.jpg" alt="" class="image">
+                    
+                </div>
+        
+               
+            </div>
+        </section>
+        <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">Evalution</h2>
+            <p>User Testing Results Overview 
+            </p> 
+            <h3>1.Ease of Use
+            </h3>
+                <ul>
+                    <li>Findings: Participants found the robot generally easy to use, with Amina noting it simplified the room-finding process. However, Madiyar had reservations about using the voice assistant.
+
+                    </li>
+                    <li>
+                        Recommendation: Improve the user interface for smoother navigation and ensure voice commands are intuitive and easy to understand.
+
+                    </li>
+                </ul>
+            <h3>2.Accuracy of Information               </h3>
+            <ul>
+                <li> Findings: Real-time updates were seen as valuable, but Timothy expressed concern over potential inaccuracies, which could waste time.
+                </li>
+                <li>
+                    Recommendation: Ensure the system integrates accurately with university scheduling data to provide reliable, real-time availability updates.
+
+                </li>
+            </ul>
+            <h3>3.Time Efficiency              </h3>
+            <ul>
+                <li> Findings: Madiyar noticed a significant time reduction in finding a study room. Amina, however, experienced delays during peak times.
+                </li>
+                <li>
+                    Recommendation: Optimize system performance during busy periods by improving response time and accuracy.
+
+                </li>
+            </ul>
+            <h3>4. Overall Experience             </h3>
+            <ul>
+                <li> Findings: Both Amina and Madiyar felt the robot reduced stress and improved convenience when searching for study spaces.
+                </li>
+                <li>
+                    Recommendation: Continue refining features based on user feedback to further enhance the overall user experience.
+
+                </li>
+            </ul>
+            <h3>5. Voice Assistant Functionality            </h3>
+            <ul>
+                <li> Findings: Amina appreciated the voice assistant, but Madiyar was skeptical about its usefulness. Timothy was indifferent.
+                </li>
+                <li>
+                    Recommendation: Enhance the voice assistant's recognition and response accuracy to better serve users who prefer this method of interaction.
+                </li>
+            </ul>
+
+        </div>
+    </section>
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="script.js"></script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzFPVGxI-75Ilkm2z_EMuI9ubPlp8-7dQmMzzdPiIunLPPzj3bcY1ohMdT_DfZ3zPwhTA/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg=document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML="Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML=""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+          <script>
+            window.onload = function() {
+                const typed = new Typed('.multi-text', {
+                    strings: ['SDU Scout Robot '], // The text you want to type
+                    typeSpeed: 100,  // Speed of typing
+                    backSpeed: 100,  // Speed of backspacing
+                    backDelay: 1000, // Delay before backspacing
+                    loop: true  // Enable looping
+                });
+            };
+        </script>
+        
+    </body>
+</html>
